@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JB NAV ENTERPRISE</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                color: white;
+            }
+            .home{
+                width: 100%;
+                min-height: 100vh;
+                background-image: url(image.jpg);
+                background-position: center;
+                background-size: cover;
+                padding: 10px 10%;
+                transition: width 3s;
+                font-size: 20px;
+                
+            }
+            nav{
+                padding: 10px 0;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .log{
+                width: 140px;
+            }
+            nav ul li{
+                display: inline-block;
+                list-style: none;
+                margin: 10px 15px;
+            }
+            nav ul li a{
+                text-decoration: none;
+                color: #cc9658;
+                font-weight: 400;
+            }
+            .request-btn{
+                text-decoration: none;
+                color: black; 
+                margin-right: 15px;
+                font-weight: 400;
+                font-size: 25px;
+            }
+        
+            .content{
+                margin-top: 10%;
+                max-width: 600px;
+                
+            }
+            .content h1{
+                font-size: 50px;
+                color: brown;
+            }
+            .content .btn{
+                padding: 15px 80px;
+                font-size: 16px;
+            }
+            .content p{
+                font-size: 20px;
+                color: brown;
+            }
+
+            .home:hover{
+                width: 1250px;
+            }
+            html{
+                background-image: url(restaurant.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="home">
+            <nav>
+                <img scr="images/1.png" class="logo">
+                <ul>
+                    <li><a href="project.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="ourcontact.html">Contact</a></li>
+                </ul>
+                <div>
+                    <a href="register.html" class="request-btn">Request</a>
+                </div>
+            </nav>
+            <div class="logo">
+                <img src="logo.png" style="float: left" width="150px" height="150px">
+            </div>
+            <div class="content">
+                <h1>Welcome to JB NAV ENTERPRISE</h1>
+                <p><br></p>
+                <h1>Our Services:</h1><br>
+                <p>Ballons, Balloon Arrangement, Tabels and Chairs, and Tent Rental.</p>
+                <h1>HOW IT STARTED</h1>
+                <p>It was started first as tables and chairs rental for occasion then after a few years we tried another line of business payment center</p>
+                <a href="#" class="btn">Apply</a>
+            </div>
+        </div>
+    </body>
+</html>
